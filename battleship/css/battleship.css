@@ -1,0 +1,54 @@
+body {
+	margin: 0px;
+	background: url("../images/azovsea-rest.jpg") no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+}
+
+div#board {
+	position: relative;
+	width: 1900px;
+	height: 800px;
+	margin: 0px 0px;
+	padding: 0px;
+	top: 20px;
+	color: red;
+	background: rgba(128, 128, 128, 0.8);
+}
+
+div#messageArea {
+	font-size: 1.5em;
+	height: 150px;
+	width: 300px;
+	position: absolute;
+	bottom: -100px;
+	left: calc( 50vw - 150px );
+	color: rgb(83, 175, 19);
+	text-align: center;
+}
+
+form {
+	position: absolute;
+	bottom: -50px;
+	left: 5vw;
+	padding: 15px;
+	background-color: rgb(83, 175, 19);
+}
+
+form input {
+	background-color: rgb(152, 207, 113);
+	border-color: rgb(83, 175, 19);
+	font-size: 1em;
+}
+
+.ship {
+	background: url("../images/ship.png") no-repeat center center;
+}
+
+.hit {
+	background: url("../images/sunk_ship.png") no-repeat center center;
+}
+.miss {
+	background: url("../images/miss.png") no-repeat center center;
+}

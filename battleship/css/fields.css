@@ -1,0 +1,50 @@
+table.field td {
+	width: 94px;
+	height: 94px;
+}
+
+table.field {
+	display: inline;
+	margin-left: calc(5vw);
+}
+
+table.field {
+	border-spacing: 0px;
+}
+
+table.field td {
+	border-right : 4px ridge #34c924;
+	border-top : 4px ridge #34c924;
+}
+
+table.field tr td:first-child>span { /*Оформление для знаков координат*/
+	color :#a8e4a0;
+	display: block;
+	width: 1px;
+	margin: 0px auto;
+	font-family: monospace;
+	font-weight: 900;
+	font-size: 3em;
+}
+
+table.field tr:last-child td>span{ /*Оформление для знаков координат*/
+	color :#a8e4a0;
+	display: block;
+	width: 1px;
+	margin: 0px auto;
+	font-family: monospace;
+	font-weight: 900;
+	font-size: 3em;
+}
+
+table.field tr:last-child td {
+	height: 50px;
+}
+
+table.field tr td:first-child {
+	width: 50px;
+}
+
+.selected_cell {
+	background: #a8e4a0;	
+}

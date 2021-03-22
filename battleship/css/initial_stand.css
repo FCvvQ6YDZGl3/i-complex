@@ -1,0 +1,14 @@
+div.button#start_game {
+	color: #34c924;
+	border: 5px solid #a8e4a0;
+	border-radius: 1em;
+	width: 400px;
+	padding: 40px;
+	margin: 0px auto;
+}
+
+div.button#start_game:hover {
+	background-color: rgb(0, 0,0, 0.5);
+	border-color: #34c924;
+	color: #a8e4a0;
+}
