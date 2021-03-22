@@ -1,0 +1,44 @@
+ul#control_panel {
+	position: absolute;
+	top: -5px;
+}
+
+ul#control_panel ul>li {
+	font-size: 1.5em;
+	color: #777777;
+	border: 3px solid #e3e3e3;
+	background-color: #e5e5e5;
+	padding: 5px;
+	padding-top: 10px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+ul#control_panel ul{
+	display: inline;
+}
+
+ul#control_panel li {
+	display: inline;
+}
+
+
+
+ul#control_panel li#pause { background-color: #ffdf84}
+
+ul#control_panel ul>li:hover {
+	position: relative;
+	animation: move;
+	animation-duration: 0.5s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-play-state: normal;
+	animation-fill-mode: normal;
+}
+
+@keyframes move {
+	from{top: 0px;}
+	50% { top: 8px;}
+	to {top: 0px;}
+}
