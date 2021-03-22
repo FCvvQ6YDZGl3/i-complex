@@ -1,0 +1,16 @@
+header img {
+  margin-left: 30px;
+}
+
+header ul {
+  float: right;
+  color: #858585;
+  margin: 0;
+  margin-right: 30px;
+  font-size: 13px;
+}
+
+header li {margin-bottom: 5px}
+
+header li.email { list-style-image: url(../images/email.png) }
+header li.phone { list-style-image: url(../images/phone.png) }

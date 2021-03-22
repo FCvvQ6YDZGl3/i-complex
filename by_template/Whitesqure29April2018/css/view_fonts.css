@@ -1,0 +1,64 @@
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+section>h2 {
+  margin-left: 150px;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+section>p {
+  padding: 25px 50px;
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.wrapper>section:nth-child(2) {
+  font-family: 'Lato-Bold';
+}
+
+.wrapper>section:nth-child(3) {
+  font-family: 'Lato-Black';
+}
+
+.wrapper>section:nth-child(4) {
+  font-family: 'Lato-Light';
+}
+
+.wrapper>section:nth-child(5) {
+  font-family: 'Lato-Italic';
+}
+
+.wrapper>section:nth-child(6) {
+  font-family: 'Lato-Regular';
+}
+
+.wrapper>section:nth-child(7) {
+  font-family: 'Lato-Hairline';
+}
+
+.wrapper>section:nth-child(8) {
+  font-family: 'Lato-BoldItalic';
+}
+
+.wrapper>section:nth-child(9) {
+  font-family: 'Lato-BlackItalic';
+}
+
+.wrapper>section:nth-child(10) {
+  font-family: 'Lato-LightItalic';
+}
+
+.wrapper>section:nth-child(11) {
+  font-family: 'Lato-HairlineItalic';
+}

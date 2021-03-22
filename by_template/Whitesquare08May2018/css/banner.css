@@ -1,0 +1,31 @@
+.banner {
+  height: 300px;
+  margin-top: 30px;
+  background: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.banner header {
+  position: relative;
+  top: 30px;
+  left: 60px;
+  font-family: sans-serif;
+  font-stretch: semi-condensed;
+}
+
+.banner h2 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 400;
+  
+}
+
+.banner h3 {
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 45px;
+  background: rgba(124, 190, 92, 1);
+}

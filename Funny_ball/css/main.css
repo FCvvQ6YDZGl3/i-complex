@@ -1,0 +1,11 @@
+body {
+  background: MediumSeaGreen;
+}
+
+.contain {
+  background: #ddd;
+  width: 1400px;
+  height: 400px;
+  margin: calc( 50vh - 200px ) auto;
+  cursor: crosshair;
+}

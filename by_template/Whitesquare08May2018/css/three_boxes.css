@@ -1,0 +1,77 @@
+.three_boxes {
+  margin-top: 30px;
+}
+
+.banner + .three_boxes section {
+  float: left;
+}
+
+.three_boxes section {
+  box-sizing: border-box;
+  width: 33%;
+  text-align: center;
+  vertical-align: top;
+  padding: 0 40px;
+  margin-bottom: 50px;
+}
+
+.three_boxes section h3 {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.three_boxes section p, .three_boxes section q {
+  font-size: 12px;
+  color: grey;
+  letter-spacing: normal;
+  margin-top: 0;
+}
+
+.three_boxes section q {
+  font-style: italic;
+}
+
+.three_boxes .table-cell {
+  width: 33%;
+}
+
+a.button {
+  display: block;
+  width: 90px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 12px;
+  padding: 4px;
+  color: white;
+  background: #7cbe5c;// url(../images/arrow.png)
+  background-repeat: no-repeat;
+  background-position: right;
+  text-decoration: none;
+  text-align: center;
+}
+
+a.button:focus {
+  transform: scale(1.2, 1.2) translate(0px, 0px);
+}
+
+.three_boxes .arrow {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 900;
+  display: inline-block;
+  transform: scale(1.0, 1.8) translate(5px, 0px);
+}
+
+.decorate-string
+{
+    background-origin: padding-box, border-box;
+    background-clip: padding-box, border-box;
+    background:
+      linear-gradient(270deg, rgba(255,255,255,1.0), rgba(0,125,125,.0) 10.0%),
+      linear-gradient(90deg, rgba(255,255,255,1.0), rgba(0,125,125,.0) 10.0%),
+      linear-gradient(-180deg, rgba(125,125,125,0.0) 81%, rgba(125,125,125,.9 ) 82.5%, rgba(125,125,125,.3) 82.0%,  rgba(125,125,125,0.0) 83% );
+}
+
+.three_boxes blockquote {
+  font-size: 13px;
+}

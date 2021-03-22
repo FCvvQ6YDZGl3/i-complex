@@ -1,0 +1,125 @@
+div.banner {
+  font-family: 'Lato-Hairline';
+  height: 550px;
+  background: #354556;
+  color: #fff;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+div.heir {
+  display: inline-block;
+  height: inherit;
+  margin: 0px auto;
+}
+
+div.banner .table-cell {
+  padding-top: 0.1px;
+  height: inherit;
+  vertical-align: middle;
+}
+
+p.wind_power {
+  display: block;
+  font-size: 90px;
+}
+
+p.wind_power + p {
+  font-family: 'Lato-Light';
+  display: block;
+  color: #8797a8;
+  font-size: 34px;
+}
+
+div.banner p.button {
+  margin-top: 65px;
+
+}
+
+.button>a {
+  font-family: 'Lato-Light';
+  background: #286968;
+  border-radius: 3px;
+  padding: 15px;
+  margin: 0 33%;
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+div.three_boxes {
+  width: inherit;
+  background: #fff;
+}
+
+div.three_boxes div.heir {
+  width: 100%;
+  margin: 80px 150px;
+}
+
+.three_boxes .heir .table-cell a {
+  text-decoration: none;
+  color: #25a68d;
+}
+
+.three_boxes .heir .table-cell h2 {
+  margin-top: 0;
+  color: #16a085;
+  font-family: 'Lato-Hairline';
+  font-size: 30px;
+}
+
+.three_boxes .heir .table-cell h2 + p {
+  font-family: 'OpenSans-Regular';
+  font-size: 16px;
+  text-align: center;
+}
+
+.three_boxes .heir .table-cell {
+  color: #7f8c8d;
+  width: 300px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.three_boxes .heir .table-cell p + p {
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.three_boxes .heir .table-cell + .table-cell {
+  padding-left: 30px;
+}
+
+div.recent_posts {
+  background: #ecf0f1;
+  font-family: 'Lato-Hairline';
+  color: #2c3e50;
+}
+
+div.recent_posts div.heir {
+  width: inherit;
+  margin: 40px 150px;
+}
+
+div.recent_posts div.heir section {
+  width: 300px;
+}
+
+div.recent_posts div.heir section h2 {
+  font-size: 20px;
+  color: #16a085;
+}
+
+div.recent_posts div.heir section p {
+  font-family: 'Lato';
+  color: #7f8c8d;
+}
+
+div.recent_posts div.heir section + section {
+  padding-left: 30px;
+}

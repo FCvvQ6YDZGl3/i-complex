@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+body {
+  margin: 0;
+  background: #222;
+  font-family: 'Lato', sans-serif;
+}
+
+div.wrapper {
+  width: 1260px;
+  margin: 0 auto;
+}
+
+.table-cell {
+  display: table-cell;
+}

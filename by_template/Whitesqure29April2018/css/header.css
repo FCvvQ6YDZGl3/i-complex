@@ -1,0 +1,51 @@
+header {
+  width: inherit;
+  height: 50px;
+  background: #16a085;
+}
+
+header div.float.right {
+  height: inherit;
+  float: right;
+  margin-right: 150px;
+}
+
+header div.float.left {
+  height: inherit;
+  float: left;
+  margin-left: 150px;
+}
+
+header div.table-cell {
+  height: inherit;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header div.table-cell>img{
+  vertical-align: middle;
+}
+
+header ul {
+  height: auto;
+  display: inline;
+  padding: 0;
+}
+
+header div.table-cell ul>li {
+  display: inline;
+  list-style-type: none;
+  padding: 5px;
+}
+
+header li a {
+  font-family: 'Lato-Regular';
+  font-size: 14px;
+  font-weight: 500;
+  color: #9bded1;
+  text-decoration: none;
+}
+
+header li a:focus {
+  color: #fff;
+}

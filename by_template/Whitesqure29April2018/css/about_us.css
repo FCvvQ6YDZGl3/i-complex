@@ -1,0 +1,70 @@
+section.main>h2 {
+  background: #344455;
+  font-family: 'Lato-Hairline';
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  padding: 30px 150px;
+  margin: 0;
+}
+
+section.main div.img {
+  padding-top: 3px;
+}
+
+section.main>div.heir.awesome {
+  background: #fff;
+  padding-bottom: 50px;
+}
+
+section.main section {
+  text-align: center;
+  margin: 0 150px;
+  font-family: 'Lato-Hairline';
+}
+
+section.main .awesome section>h2 {
+  font-family: 'Lato-Light';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1em;
+  color: #16a085;
+  margin: 0;
+  padding-top: 70px;
+  padding-left: 10px;
+}
+
+section.main section>p {
+  font-family: 'Lato-Regular';
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #7f8c8d;
+  margin: 20px 0;
+}
+
+div.heir.three_boxes {
+  padding: 0 150px;
+  width: inherit;
+  background: #ebeff0;
+}
+
+.three_boxes.heir .table-cell h2 {
+  margin-top: 0;
+  padding-top: 30px;
+  color: #38495a;
+  font-family: 'Lato-Hairline';
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.three_boxes.heir .table-cell {
+  padding: 0 10px;
+}
+
+.three_boxes.heir .table-cell {
+  color: #7f8c8d;
+  width: 300px;
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 30px;
+}

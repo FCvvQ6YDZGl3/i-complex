@@ -1,0 +1,37 @@
+.projects {
+  clear: left;
+}
+
+.projects h2, .clients h2 {
+  text-align: center;
+  width: 33%;
+  margin: 0 auto;
+}
+
+.projects .img {
+  box-sizing: border-box;
+  height: 120px;
+  width: calc( (100% - 6 * 15px)/6 - 25px);
+  margin: 30px 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.project1 { background: url(../images/project1.png); }
+.project2 { background: url(../images/project2.png); }
+.project3 { background: url(../images/project3.png); }
+.project4 { background: url(../images/project4.png); }
+.project5 { background: url(../images/project5.png); }
+.project6 { background: url(../images/project6.png); }
+
+.projects .img a {
+  width: 100%;
+  height: inherit;
+  display: block;
+}
+
+.projects .img a:focus {
+  transform: scale(0.2, 0.2) translate(-200%, -200%) rotateZ(0deg);
+  background-color: rgba(124, 190, 92, 0.8);
+}

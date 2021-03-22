@@ -1,0 +1,79 @@
+.social-icon {
+  width: 30px;
+  height: 30px;
+  background: url(../images/sprite_social.png) no-repeat;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.twitter {
+  background-position:  0 0;
+}
+
+.facebook {
+  background-position: -60px 0;
+}
+
+.google-plus {
+  background-position: -30px 0;
+}
+
+.vimeo {
+  background-position: -90px 0;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background: black;
+
+}
+
+footer, footer a {
+  color: #6d6d6d;
+}
+
+footer .contain {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+footer .copyright {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 10px;
+  padding-right: 30px;
+}
+
+footer .social {
+  box-sizing: border-box;
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 15px;
+  width: 100%;
+}
+
+footer ul {
+  margin: 15px 0;
+  box-sizing: border-box;
+  width: 12.5%;
+  list-style: square;
+  color: #6d6d6d;
+  float: left;
+  text-align: left;
+  font-size: 11px;
+}
+
+footer ul li {
+  padding-bottom: 5px;
+}
+
+footer ul li a{
+  text-decoration: none;
+}
+
+footer + .margin {
+  width: 100%;
+  height: 80px;
+}

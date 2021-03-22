@@ -1,0 +1,55 @@
+footer {
+  background: #2c3e50;
+}
+
+footer div.heir {
+   width: inherit;
+   margin: 0px 150px;
+   padding: 20px 0;
+}
+
+footer div.table-row {
+  display: table-row;
+}
+
+footer section h2 {
+  font-family: 'Lato-Hairline';
+  font-size: 17px;
+  color: #fff;
+}
+
+footer section.table-cell>section {
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer section.table-cell>section + section {
+  margin-left: 50px;
+}
+
+footer section ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer section ul a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #7f8e9c;
+}
+
+footer div.table-row>section.table-cell {
+  width: 300px;
+}
+
+footer div.table-row>section.table-cell + section.table-cell {
+  padding-left: 30px;
+}
+
+footer .table-cell.logo  {
+  width: inherit;
+  height: inherit;
+  text-align: right;
+  vertical-align: middle;
+}

@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: #222;
+  font-family: 'Tahoma', sans-serif;
+}
+
+.wrapper.upper {
+  box-sizing: border-box;
+  width: 1260px;
+  margin: 0 auto;
+  padding: 0 150px;
+  padding-top: 80px;
+  background: white;
+}
+
+section h2 {
+  margin-top: 0;
+  color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: semi-condensed;
+  padding-bottom: 10px;
+}
+
+.table-cell {
+  display: table-cell;
+}
+
+.table-row {
+  display: table-row;
+}
